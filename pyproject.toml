@@ -1,5 +1,5 @@
 [build-system]
-requires = ["scikit-build-core[pyproject]>=0.9.2"]
+requires = ["scikit-build-core[pyproject]>=0.9.2", "libggml-python"]
 build-backend = "scikit_build_core.build"
 
 [project]
