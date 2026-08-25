@@ -74,6 +74,9 @@ sdist.include = [".git", "vendor/llama.cpp/*"]
 provider = "scikit_build_core.metadata.regex"
 input = "llama_cpp/__init__.py"
 
+[tool.scikit-build.cmake.define]
+LLAMA_USE_SYSTEM_GGML = "ON"
+
 [project.urls]
 Homepage = "https://github.com/abetlen/llama-cpp-python"
 Issues = "https://github.com/abetlen/llama-cpp-python/issues"
